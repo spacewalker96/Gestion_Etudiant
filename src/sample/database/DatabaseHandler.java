@@ -58,5 +58,42 @@ public class DatabaseHandler extends Configs {
         }
 
     }*/
-    }}
+    }
+   /* public void selectEtudiant(Etudiant etudiant) throws SQLException {
+        Statement stmt = dbConnection.createStatement();
+
+        String sql = "SELECT nom, prenom, email, telephone, specialite FROM etudiant";
+        ResultSet rs = stmt.executeQuery(sql);
+        while(rs.next()){
+            String nom = rs.getString("nom");
+            String prenom = rs.getString("prenom");
+            String email = rs.getString("email");
+            String telephone = rs.getString("telephone");
+            String specialite = rs.getString("specialite");
+
+    }*/
+/*public ResultSet getTasksByUser(int userId) {
+
+    ResultSet resultTasks = null;
+
+    String query = "SELECT nom, prenom, email, telephone, specialite FROM etudiant";
+
+    try {
+        PreparedStatement preparedStatement = getDbConnection().prepareStatement(query);
+
+        preparedStatement.setInt(1, userId);
+
+
+        resultTasks = preparedStatement.executeQuery();
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    }
+
+
+    return resultTasks;*/
+}
+
 

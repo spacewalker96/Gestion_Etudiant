@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #0069c0;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #0069c0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
    <children>
+      <AnchorPane layoutX="207.0" prefHeight="500.0" prefWidth="593.0" />
       <AnchorPane prefHeight="500.0" prefWidth="207.0" style="-fx-background-color: #6ec6ff;">
          <children>
             <Pane layoutX="10.0" layoutY="27.0" prefHeight="53.0" prefWidth="187.0" style="-fx-background-color: #ec407a; -fx-background-radius: 5;">
@@ -22,17 +23,17 @@
                   </Label>
                </children>
             </Pane>
-            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="169.0" opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Add etudiant" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="169.0" opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Add Etudiant" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="225.0" opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Add etudiant" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="225.0"  opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Delete Etudiant" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="284.0" opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Add etudiant" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="284.0" opacity="0.8" prefHeight="49.0" prefWidth="129.0" style="-fx-background-color: #0069c0; -fx-background-radius: 200;" text="Edit Etudiant" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>

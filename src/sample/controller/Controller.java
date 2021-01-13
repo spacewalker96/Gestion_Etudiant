@@ -1,8 +1,10 @@
 package sample.controller;
 import com.jfoenix.controls.JFXRadioButton;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.AnchorPane;
 import sample.database.DatabaseHandler;
 import sample.model.Etudiant;
 
@@ -23,6 +25,7 @@ public class Controller {
     @FXML
     private ToggleGroup radio;
 
+
     @FXML
     void createEtudiant() {
         DatabaseHandler databaseHandler = new DatabaseHandler();
@@ -34,5 +37,14 @@ public class Controller {
         String speciality = rb.getText();
         Etudiant etudiant = new Etudiant(nom, prenom, email, telephone,speciality);
         databaseHandler.addetudiant(etudiant);
-        System.out.println(rb.getText());
-    }}
+        //System.out.println(rb.getText());
+    }
+
+    public void listEtudiant(ActionEvent actionEvent) {
+        DatabaseHandler databaseHandler = new DatabaseHandler();
+
+
+
+
+    }
+}
